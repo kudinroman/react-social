@@ -6,8 +6,8 @@ const Nav = () => {
         <nav className={s.nav}>
             <ul>
                 <li className={`${s.item} ${s.active}`}><a>Profile</a></li>
-                <li class={s.item}><a>Messages</a></li>
-                <li class={s.item}><a>Main content</a></li>
+                <li className={s.item}><a>Messages</a></li>
+                <li className={s.item}><a>Main content</a></li>
             </ul>
         </nav>
     );

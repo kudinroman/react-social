@@ -11,12 +11,12 @@ const MyPosts = () => {
                 <button>Add post</button>
             </div>
             <div>
-                <Post />
-                <Post />
-                <Post />
-                <Post />
-                <Post />
-                <Post />
+                <Post message="It's my post 1" likeCount='15' />
+                <Post message="It's my post 2" likeCount='20' />
+                <Post message="It's my post 3" likeCount='25' />
+                <Post message="It's my post 4" likeCount='15' />
+                <Post message="It's my post 5" likeCount='20' />
+                <Post message="It's my post 6" likeCount='25' />
             </div>
         </div>
 

@@ -11,3 +11,17 @@
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 }
+
+.content {
+  grid-area: c;
+  background: red;
+}
+
+.content .avatar {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.content > div > div:first-child img {
+  height: 300px;
+}
